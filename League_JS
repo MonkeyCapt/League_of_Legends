@@ -1,0 +1,481 @@
+function show1() {
+
+   if(document.getElementById('Koo').style.display == 'block'){
+	   
+	   document.getElementById('Koo').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Koo').style.display = 'block';
+   }
+   
+}
+function show2() {
+
+   if(document.getElementById('CLG').style.display == 'block'){
+	   
+	   document.getElementById('CLG').style.display = 'none';
+   }
+   else{
+	   document.getElementById('CLG').style.display = 'block';
+   
+   }
+}
+function show3() {
+
+   if(document.getElementById('Flash').style.display == 'block'){
+	   
+	   document.getElementById('Flash').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Flash').style.display = 'block';
+   
+   }
+}
+function show4() {
+
+   if(document.getElementById('Pain').style.display == 'block'){
+	   
+	   document.getElementById('Pain').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Pain').style.display = 'block';
+   
+   }
+}
+function show6() {
+
+   if(document.getElementById('FNC').style.display == 'block'){
+	   
+	   document.getElementById('FNC').style.display = 'none';
+   }
+   else{
+	   document.getElementById('FNC').style.display = 'block';
+   
+   }
+  
+}
+function show7() {
+
+   if(document.getElementById('AHQ').style.display == 'block'){
+	   
+	   document.getElementById('AHQ').style.display = 'none';
+   }
+   else{
+	   document.getElementById('AHQ').style.display = 'block';
+   
+   }
+}
+function show8() {
+
+   if(document.getElementById('C9').style.display == 'block'){
+	   
+	   document.getElementById('C9').style.display = 'none';
+   }
+   else{
+	   document.getElementById('C9').style.display = 'block';
+   
+   }
+}
+function show9() {
+
+   if(document.getElementById('H2K').style.display == 'block'){
+	   
+	   document.getElementById('H2K').style.display = 'none';
+   }
+   else{
+	   document.getElementById('H2K').style.display = 'block';
+   
+   }
+}
+function show10() {
+
+   if(document.getElementById('EDG').style.display == 'block'){
+	   
+	   document.getElementById('EDG').style.display = 'none';
+   }
+   else{
+	   document.getElementById('EDG').style.display = 'block';
+   
+   }
+}
+function showig() {
+
+   if(document.getElementById('IG').style.display == 'block'){
+	   
+	   document.getElementById('IG').style.display = 'none';
+   }
+   else{
+	   document.getElementById('IG').style.display = 'block';
+   
+   }
+}
+function show11() {
+
+   if(document.getElementById('SKT T1').style.display == 'block'){
+	   
+	   document.getElementById('SKT T1').style.display = 'none';
+   }
+   else{
+	   document.getElementById('SKT T1').style.display = 'block';
+   
+   }
+}
+
+function show12() {
+
+   if(document.getElementById('BKT').style.display == 'block'){
+	   
+	   document.getElementById('BKT').style.display = 'none';
+   }
+   else{
+	   document.getElementById('BKT').style.display = 'block';
+   
+   }
+}function show13() {
+
+   if(document.getElementById('TSM').style.display == 'block'){
+	   
+	   document.getElementById('TSM').style.display = 'none';
+   }
+   else{
+	   document.getElementById('TSM').style.display = 'block';
+   
+   }
+}function show14() {
+
+   if(document.getElementById('OG').style.display == 'block'){
+	   
+	   document.getElementById('OG').style.display = 'none';
+   }
+   else{
+	   document.getElementById('OG').style.display = 'block';
+   
+   }
+}
+function show15() {
+
+   if(document.getElementById('LGD').style.display == 'block'){
+	   
+	   document.getElementById('LGD').style.display = 'none';
+   }
+   else{
+	   document.getElementById('LGD').style.display = 'block';
+   
+   }
+}
+function show16() {
+
+   if(document.getElementById('KTR').style.display == 'block'){
+	   
+	   document.getElementById('KTR').style.display = 'none';
+   }
+   else{
+	   document.getElementById('KTR').style.display = 'block';
+   
+   }
+}
+function q1() {
+
+   if(document.getElementById('Q1').style.display == 'block'){
+	   
+	   document.getElementById('Q1').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Q1').style.display = 'block';
+   }
+   
+}
+function q2() {
+
+   if(document.getElementById('Q2').style.display == 'block'){
+	   
+	   document.getElementById('Q2').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Q2').style.display = 'block';
+   }
+   
+}
+function q3() {
+
+   if(document.getElementById('Q3').style.display == 'block'){
+	   
+	   document.getElementById('Q3').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Q3').style.display = 'block';
+   }
+   
+}
+function q4() {
+
+   if(document.getElementById('Q4').style.display == 'block'){
+	   
+	   document.getElementById('Q4').style.display = 'none';
+   }
+   else{
+	   document.getElementById('Q4').style.display = 'block';
+   }
+   
+}
+function semi1() {
+
+   if(document.getElementById('S1').style.display == 'block'){
+	   
+	   document.getElementById('S1').style.display = 'none';
+   }
+   else{
+	   document.getElementById('S1').style.display = 'block';
+   }
+   
+}
+function semi2() {
+
+   if(document.getElementById('S2').style.display == 'block'){
+	   
+	   document.getElementById('S2').style.display = 'none';
+   }
+   else{
+	   document.getElementById('S2').style.display = 'block';
+   }
+   
+}
+function finals() {
+
+   if(document.getElementById('F').style.display == 'block'){
+	   
+	   document.getElementById('F').style.display = 'none';
+   }
+   else{
+	   document.getElementById('F').style.display = 'block';
+   }
+   
+}
+function winners() {
+
+   if(document.getElementById('W').style.display == 'block'){
+	   
+	   document.getElementById('W').style.display = 'none';
+   }
+   else{
+	   document.getElementById('W').style.display = 'block';
+   }
+   
+}
+
+function parseJson(){
+		var tsm = { "name": "TSM",
+              "id": "a1",
+              "info": {
+                "standingsBeforePlayoffs": "5",
+                "standingsAfterPlayoffs": "2",
+                "wins": "11",
+                "loses": "7",
+                "group": "d",
+                "standingInGroups": "4"}
+		};
+		var clg = {
+			"name": "CLG",
+              "id": "a2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "1",
+                "wins": "13",
+                "loses": "6",
+                "group": "a",
+			  "standingInGroups": "3"}
+		};
+		var c9 = {
+			"name": "C9",
+              "id": "a3",
+              "info": {
+                "standingsBeforePlayoffs": "7",
+                "standingsAfterPlayoffs": "6",
+                "regionalQualifier": "1",
+                "wins": "7",
+                "loses": "12",
+                "group": "b",
+			  "standingInGroups": "3"}
+		};
+		var fnatic = {
+			"name": "Fnatic",
+              "id": "b1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "18",
+                "loses": "0",
+                "group": "b",
+			  "standingInGroups": "1"}
+		};
+		var origin = {
+			 "name": "Origin",
+              "id": "b2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "wins": "12",
+                "loses": "6",
+                "group": "d",
+			  "standingInGroups": "2"}
+		};
+		var h2k = { "name": "H2K",
+              "id": "b3",
+              "info": {
+                "standingsBeforePlayoffs": "3",
+                "standingsAfterPlayoffs": "3",
+                "regionalQualifier": "1",
+                "wins": "11",
+                "loses": "10",
+                "group": "c",
+                "standingInGroups": "3"}
+		};
+		var edg = {"name": "EDG",
+              "id": "c1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "5",
+                "regionalQualifier": "1",
+                "wins": "14",
+                "loses": "2",
+                "ties": "6",
+                "group": "c",
+			  "standingInGroups": "2"}
+		};
+		var lgd = {
+              "name": "LGD",
+              "id": "c2",
+              "info": {
+                "standingsBeforePlayoffs": "5",
+                "standingsAfterPlayoffs": "1",
+                "wins": "6",
+                "loses": "4",
+                "ties": "12",
+                "group": "d",
+                "standingInGroups": "3"}
+		};
+		var ig = {
+              "name": "IG",
+              "id": "c3",
+              "info": {
+                "standingsBeforePlayoffs": "3",
+                "standingsAfterPlayoffs": "3",
+                "wins": "8",
+                "loses": "6",
+                "ties": "8",
+                "group": "b",
+                "standingInGroups": "4"}
+		};
+
+		var skt = {
+              "name": "SKT",
+              "id": "d1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "17",
+                "loses": "1",
+                "group": "c",
+                "standingInGroups": "1"
+				}
+		};
+		var koo={
+              "name": "KOO",
+              "id": "d2",
+              "info": {
+                "standingsBeforePlayoffs": "4",
+                "standingsAfterPlayoffs": "3",
+                "wins": "11",
+                "loses": "7",
+                "group": "a",
+                "standingInGroups": "2"
+              }
+            };
+			var kt = {
+              "name": "KT Rolster",
+              "id": "d3",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "regionalQualifier": "1",
+                "wins": "13",
+                "loses": "5",
+                "group": "d",
+                "standingInGroups": "1"
+              }
+			};
+			var ahq = {
+              "name": "AHQ",
+              "id": "e1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "11",
+                "loses": "0",
+                "ties": "3",
+                "group": "b",
+                "standingInGroups": "2"
+              }
+            };
+			var fw = {
+              "name": "Flash Wolves",
+              "id": "e2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "3",
+                "regionalQualifier": "1",
+                "wins": "9",
+                "loses": "2",
+                "ties": "3",
+                "group": "a",
+                "standingInGroups": "1"
+              }
+            };
+			var bgt =  {
+              "name": "Bangkok Tigers",
+              "id": "f1",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "wins": "3",
+                "loses": "3",
+                "group": "c",
+                "standingInGroups": "4"
+              }
+            };
+			var pain = {
+              "name": "Pain",
+              "id": "f2",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "4",
+                "loses": "0",
+                "group": "a",
+                "standingInGroups": "4"
+			}};
+		
+	
+	//group a
+	document.getElementById('Koo').innerHTML = "Wins: " + koo.info.wins + "<br> Losses: " + koo.info.loses + "<br> Standings before playoffs: " + koo.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + koo.info.standingsAfterPlayoffs + "<br>";
+	document.getElementById('CLG').innerHTML = "Wins: " + clg.info.wins + "<br> Losses: " + clg.info.loses + "<br>Standings before playoffs: " + clg.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + clg.info.standingsAfterPlayoffs;
+	document.getElementById('Flash').innerHTML = "Wins: " + fw.info.wins + "<br> Losses: " + fw.info.loses + "<br> Standings before playoffs: " + fw.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + fw.info.standingsAfterPlayoffs;
+	document.getElementById('Pain').innerHTML = "Wins: " + pain.info.wins + "<br> Losses: " + pain.info.loses + "<br> Standings before playoffs: " + pain.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + pain.info.standingsAfterPlayoffs;
+	//group b
+	document.getElementById('IG').innerHTML = "Wins: " + ig.info.wins + "<br> Losses: " + ig.info.loses + "<br> Standings before playoffs: " + ig.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + ig.info.standingsAfterPlayoffs;
+	document.getElementById('FNC').innerHTML = "Wins: " + fnatic.info.wins + "<br> Losses: " + fnatic.info.loses + "<br> Standings before playoffs: " + fnatic.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + fnatic.info.standingsAfterPlayoffs;
+	document.getElementById('AHQ').innerHTML = "Wins: " + ahq.info.wins + "<br> Losses: " + ahq.info.loses + "<br> Standings before playoffs: " + ahq.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + ahq.info.standingsAfterPlayoffs;
+	document.getElementById('C9').innerHTML = "Wins: " + c9.info.wins + "<br> Losses: " + c9.info.loses + "<br> Standings before playoffs: " + c9.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + c9.info.standingsAfterPlayoffs;
+	//group c
+	document.getElementById('H2K').innerHTML = "Wins: " + h2k.info.wins + "<br> Losses: " + h2k.info.loses + "<br> Standings before playoffs: " + h2k.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + h2k.info.standingsAfterPlayoffs;
+	document.getElementById('EDG').innerHTML = "Wins: " + edg.info.wins + "<br> Losses: " + edg.info.loses + "<br> Standings before playoffs: " + edg.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + edg.info.standingsAfterPlayoffs;
+	document.getElementById('SKT T1').innerHTML = "Wins: " + skt.info.wins + "<br> Losses: " + skt.info.loses + "<br> Standings before playoffs: " + skt.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + skt.info.standingsAfterPlayoffs;
+	document.getElementById('BKT').innerHTML = "Wins: " + bgt.info.wins + "<br> Losses: " + bgt.info.loses + "<br> Standings before playoffs: " + bgt.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + bgt.info.standingsAfterPlayoffs;
+	// group d
+	document.getElementById('TSM').innerHTML = "Wins: " + tsm.info.wins + "<br> Losses: " + tsm.info.loses + "<br> Standings before playoffs: " + tsm.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + tsm.info.standingsAfterPlayoffs;
+	document.getElementById('OG').innerHTML = "Wins: " + origin.info.wins + "<br> Losses: " + origin.info.loses + "<br> Standings before playoffs: " + origin.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + origin.info.standingsAfterPlayoffs;
+	document.getElementById('LGD').innerHTML = "Wins: " + lgd.info.wins + "<br> Losses: " + lgd.info.loses + "<br> Standings before playoffs: " + lgd.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + lgd.info.standingsAfterPlayoffs;
+	document.getElementById('KTR').innerHTML = "Wins: " + kt.info.wins + "<br> Losses: " + kt.info.loses + "<br> Standings before playoffs: " + kt.info.standingsBeforePlayoffs + "<br> Standings after playoffs: " + kt.info.standingsAfterPlayoffs;
+
+	
+}//
