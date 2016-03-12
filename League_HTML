@@ -1,0 +1,314 @@
+<html>
+<head>
+<Title>League project</Title>
+</head>
+<body onload="parseJson();">
+<script src="League_JavaScript.js"></script>
+<body background="http://pre13.deviantart.net/6ec1/th/pre/f/2014/301/3/8/tsm_wallpaper__3_by_itonto-d84g0lk.png">
+<p>To display information about each team, click button. Also wildcard teams information may be skewed since they only play one tournament.</p>
+<table>
+	<tr>
+	<p>Group A</p>
+		<td height="20">
+			<input type="button" name="answer" value="KOO Tigers" onclick="show1()" /><br>
+			<div id="Koo"  style="display:none;" class="answer_list" > </div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="answer" value="CLG" onclick="show2()" /><br>
+			<div id ="CLG" style="display:none;" class="answer_list"> </div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winners of Group A vs Second place of Group D" onclick="q1()" /><br>
+		<div id ="Q1" style="display:none;" class="answer_list"> Flash Wolves vs Origin</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+			<input type="button" name="answer" value="Flash Wolves" onclick="show3()" /> <br>
+			<div id ="Flash" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+		<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>	
+	<tr>
+		<td height="20">
+			<input type="button" name="answer" value="Pain Gaming" onclick="show4()" /> <br>
+			<div id ="Pain" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>	
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winner of Quarter Finals 1 vs Winner of Quarter Finals 2" onclick="semi1()" /><br>
+		<div id ="S1" style="display:none;" class="answer_list"> Origin vs SKT T1</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+
+	<tr>
+		<td height="20">
+			<p>Group B</p>
+			<input type="button" name="answer" value="IG" onclick="showig()" /><br>
+			<div id="IG"  style="display:none;" class="answer_list" ></div>
+			</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+			<input type="button" name="answer" value="FNATIC" onclick="show6()" /><br>
+			<div id ="FNC" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winners of Group C vs Second place of Group B" onclick="q2()" /><br>
+		<div id ="Q2" style="display:none;" class="answer_list"> SKT T1 vs AHQ</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+			<input type="button" name="answer" value="AHQ" onclick="show7()" /><br>
+			<div id ="AHQ" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+		<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+			<input type="button" name="answer" value="Cloud 9" onclick="show8()" /><br>
+			<div id ="C9" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winner of Semi-Final 1 vs Winner of Semi-Final 2" onclick="finals()" /><br>
+		<div id ="F" style="display:none;" class="answer_list"> SKT T1 vs KOO Tigers</div>
+		</td>
+		<td height="20">
+		<input type="button" name="answer" value="Champions" onclick="winners()" />
+		<div id ="W" style="display:none;" class="answer_list"> SKT T1</div>
+		</td>
+	</tr>
+	<tr>
+		<td height="20">
+			<p>Group C</p>
+			<input type="button" name="answer" value="H2K" onclick="show9()" /> </br>
+			<div id="H2K"  style="display:none;" class="answer_list" >  </div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+		<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="EDG" onclick="show10()" /><br>
+		<div id ="EDG" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winners of Group B vs Second place of Group C" onclick="q3()" /><br>
+		<div id ="Q3" style="display:none;" class="answer_list"> Fnatic vs EDG</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="SKT T1" onclick="show11()" /> <br>
+		<div id ="SKT T1" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="Bangkok Tigers" onclick="show12()" /><br>
+		<div id ="BKT" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winners of Quarter Finals 3 vs Winner of Quarter Finals 4" onclick="semi2()" /><br>
+		<div id ="S2" style="display:none;" class="answer_list"> Fnatic vs KOO Tigers</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+			<p>Group D</p>
+		<input type="button" name="answer" value="TSM" onclick="show13()" /><br>
+		<div id="TSM"  style="display:none;" class="answer_list" > </div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="Origin" onclick="show14()" /><br>
+		<div id ="OG" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20">
+		<input type="button" name="answer" value="Winners of Group A vs Second place of Group D" onclick="q4()" /><br>
+		<div id ="Q4" style="display:none;" class="answer_list"> KT Rolsters vs KOO Tigers</div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="LGD" onclick="show15()" /><br>
+		<div id ="LGD" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20">
+		<input type="button" name="answer" value="KT Rolster" onclick="show16()" />
+		<div id ="KTR" style="display:none;" class="answer_list"></div>
+		</td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+		<td height="20"></td>
+	</tr>
+	
+</table>
+</body>
+</html>
